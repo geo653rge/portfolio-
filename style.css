@@ -3,20 +3,65 @@
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
-
+}
+.body {
+  display: flex;
+  flex-direction: column;
 }
 
-.hero{
-
-    height:100vh ;
-    width: 100vw;
-    background-size:cover ;
-    background-position:center;
-    background-image: url(./images/me1.jpg);
-    
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/goodphotos.jpg);
 }
-.nav{
-display: flex;
-align-items: center;
+#nav {
+  display: flex;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  justify-content: space-between;
+  padding:45px 8% 0px 8% ;
+}
+.logo{
 
+  color: white;
+  font-size: 45px;
+  letter-spacing: 1px;
+  cursor:pointer;
+
+}
+.logo .span1{
+color: rgba(0, 26, 255, 0.863);
+
+}
+#nav ul li{
+
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+ 
+}
+#nav ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+#nav ul li a:hover{
+  color: rgba(0, 26, 255, 0.863);
+transition: 4s;
+
+}
+.btn{
+background-color: rgba(0, 26, 255, 0.863); 
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+padding:10px 25px;
+border-radius: 30px;
+transition:transform .4s ;
 }
