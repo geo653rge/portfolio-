@@ -22,46 +22,128 @@
   height: 15%;
   width: 100%;
   justify-content: space-between;
-  padding:45px 8% 0px 8% ;
+  padding: 45px 8% 0px 8%;
 }
-.logo{
-
+.logo {
   color: white;
   font-size: 45px;
   letter-spacing: 1px;
-  cursor:pointer;
-
+  cursor: pointer;
 }
-.logo .span1{
-color: rgba(0, 26, 255, 0.863);
-
+.span1 {
+  color: rgba(0, 26, 255, 0.863);
 }
-#nav ul li{
-
+#nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 25px;
   font-size: 18px;
- 
 }
-#nav ul li a{
-color: white;
-text-decoration: none;
-font-weight: bold;
-text-transform: capitalize;
+#nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
-#nav ul li a:hover{
+#nav ul li a:hover {
   color: rgba(0, 26, 255, 0.863);
-transition: 4s;
-
+  transition: 4s;
 }
-.btn{
-background-color: rgba(0, 26, 255, 0.863); 
-color: white;
-text-decoration: none;
-border: 2px solid transparent;
-padding:10px 25px;
-border-radius: 30px;
-transition:transform .4s ;
+.btn {
+  background-color: rgba(0, 26, 255, 0.863);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.content {
+  position: relative;
+  top: 30%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.content h1 {
+  color: white;
+  font-size: 70px;
+  margin: 20px 0px;
+}
+
+.content h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.content h4 {
+  color: rgba(23, 26, 233, 0.815);
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newsletter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newsletter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid blue;
+  outline: none;
+  border-radius: 30px;
+}
+.newsletter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  background-color: blue;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  top: 6px;
+  border-radius: 30px;
+  right: 6px;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img {
+  height: auto;
+  width: 430px;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
 }
